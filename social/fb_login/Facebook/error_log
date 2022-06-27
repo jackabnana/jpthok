@@ -1,0 +1,31 @@
+[16-Aug-2015 18:16:02 Asia/Kolkata] PHP Fatal error:  Class 'Facebook\Facebook' not found in /home/zoovi/public_html/property/social/fb_login/Facebook/login.php on line 3
+[16-Aug-2015 18:19:06 Asia/Kolkata] PHP Warning:  require_once(/home/zoovi/public_html/property/social/fb_login/Facebookautoload.php): failed to open stream: No such file or directory in /home/zoovi/public_html/property/social/fb_login/Facebook/login.php on line 3
+[16-Aug-2015 18:19:06 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required '/home/zoovi/public_html/property/social/fb_login/Facebookautoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/zoovi/public_html/property/social/fb_login/Facebook/login.php on line 3
+[16-Aug-2015 18:19:31 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Sessions are not active. Please make sure session_start() is at the top of your script.' in /home/zoovi/public_html/property/social/fb_login/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php:50
+Stack trace:
+#0 /home/zoovi/public_html/property/social/fb_login/Facebook/Helpers/FacebookRedirectLoginHelper.php(80): Facebook\PersistentData\FacebookSessionPersistentDataHandler->__construct()
+#1 /home/zoovi/public_html/property/social/fb_login/Facebook/Facebook.php(323): Facebook\Helpers\FacebookRedirectLoginHelper->__construct(Object(Facebook\Authentication\OAuth2Client), NULL, NULL, NULL)
+#2 /home/zoovi/public_html/property/social/fb_login/Facebook/login.php(11): Facebook\Facebook->getRedirectLoginHelper()
+#3 {main}
+  thrown in /home/zoovi/public_html/property/social/fb_login/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php on line 50
+[16-Aug-2015 18:22:26 Asia/Kolkata] PHP Fatal error:  Class 'Facebook\Facebook' not found in /home/zoovi/public_html/property/social/fb_login/Facebook/fb-callback.php on line 3
+[16-Aug-2015 18:24:56 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Access token metadata contains unexpected app ID.' in /home/zoovi/public_html/property/social/fb_login/Facebook/Authentication/AccessTokenMetadata.php:329
+Stack trace:
+#0 /home/zoovi/public_html/property/social/fb_login/Facebook/fb-callback.php(53): Facebook\Authentication\AccessTokenMetadata->validateAppId(NULL)
+#1 {main}
+  thrown in /home/zoovi/public_html/property/social/fb_login/Facebook/Authentication/AccessTokenMetadata.php on line 329
+[16-Aug-2015 18:30:45 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Access token metadata contains unexpected app ID.' in /home/zoovi/public_html/property/social/fb_login/Facebook/Authentication/AccessTokenMetadata.php:329
+Stack trace:
+#0 /home/zoovi/public_html/property/social/fb_login/Facebook/fb-callback.php(54): Facebook\Authentication\AccessTokenMetadata->validateAppId(NULL)
+#1 {main}
+  thrown in /home/zoovi/public_html/property/social/fb_login/Facebook/Authentication/AccessTokenMetadata.php on line 329
+[16-Aug-2015 18:32:50 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Access token metadata contains unexpected app ID.' in /home/zoovi/public_html/property/social/fb_login/Facebook/Authentication/AccessTokenMetadata.php:329
+Stack trace:
+#0 /home/zoovi/public_html/property/social/fb_login/Facebook/fb-callback.php(54): Facebook\Authentication\AccessTokenMetadata->validateAppId(NULL)
+#1 {main}
+  thrown in /home/zoovi/public_html/property/social/fb_login/Facebook/Authentication/AccessTokenMetadata.php on line 329
+[16-Aug-2015 18:40:49 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Access token metadata contains unexpected app ID.' in /home/zoovi/public_html/property/social/fb_login/Facebook/Authentication/AccessTokenMetadata.php:329
+Stack trace:
+#0 /home/zoovi/public_html/property/social/fb_login/Facebook/fb-callback.php(54): Facebook\Authentication\AccessTokenMetadata->validateAppId(1613911315525371)
+#1 {main}
+  thrown in /home/zoovi/public_html/property/social/fb_login/Facebook/Authentication/AccessTokenMetadata.php on line 329

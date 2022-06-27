@@ -1,0 +1,5 @@
+[16-Jan-2021 21:49:19 UTC] PHP Fatal error:  Call to a member function get_website_name() on null in /home/thokvikreta/public_html/test.php on line 9
+[22-Jul-2021 05:02:08 UTC] PHP Fatal error:  Call to a member function get_website_name() on null in /home/thokvikreta/public_html/test.php on line 9
+[10-Aug-2021 12:48:04 UTC] PHP Fatal error:  Call to a member function get_website_name() on null in /home/thokvikreta/public_html/test.php on line 9
+[13-Aug-2021 20:53:28 UTC] PHP Fatal error:  Call to a member function get_website_name() on null in /home/thokvikreta/public_html/test.php on line 9
+[27-Aug-2021 02:21:48 UTC] PHP Fatal error:  Call to a member function get_website_name() on null in /home/thokvikreta/public_html/test.php on line 9

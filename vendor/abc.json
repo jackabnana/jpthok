@@ -1,0 +1,48 @@
+{
+  "chart": {
+	"caption": "Sales Graph - Month wise",
+	"numberPrefix": "",
+	"rotatevalues": "0",
+	"plotToolText": "<div><b>$label</b><br/>Order : <b>$value</b></div>",
+	"theme": "fint"
+  },
+	  "data": [
+				{
+	"label": "January",
+	"value": "5"
+	}, {
+	"label": "February",
+	"value": "7"
+	}, {
+	"label": "March",
+	"value": "5"
+	}, {
+	"label": "April",
+	"value": "5"
+	}, {
+	"label": "May",
+	"value": "3"
+	}, {
+	"label": "June",
+	"value": "7"
+	}, {
+	"label": "July",
+	"value": "5"
+	}, {
+	"label": "August",
+	"value": "5"
+	}, {
+	"label": "September",
+	"value": "3"
+	}, {
+	"label": "Octomber",
+	"value": "6"
+	}, {
+	"label": "November",
+	"value": "3"
+	}, {
+	"label": "December",
+	"value": "4"
+	}
+  ]
+}

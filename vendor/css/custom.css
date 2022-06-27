@@ -1,0 +1,47 @@
+body{font-family: 'Open Sans', sans-serif; }
+
+.bg-white {background: #fff }
+.main-container , .row{width: 100%; float: left; }
+.container {width: 1100px; max-width: 100%;}
+.sub-container {width: 1050px; max-width: 100%;}
+
+.shadow-1 {box-shadow: 0px 0px 2px 0px #D3CBB8;}
+.shadow-2 {box-shadow: 2px 1px 5px #E4DEDE;}
+.shadow-3 {box-shadow: 1px 1px 5px 1px #E4DEDE;}
+
+.text-box {width: 100%; float: left; border: 1px solid #e8e8e8 ; padding: 7px;}
+.input-box {width: 100%; float: left; border: 1px solid #e8e8e8 ; padding: 7px; height: 33px;}
+.input-box:focus {border-color: #2ecc71;}
+.text-box:focus{border-color: #2ecc71;}
+
+.select-option:focus {border-color: #2ecc71;}
+.select-option {height: 33px; color: #888; cursor: pointer; border: 1px solid #e8e8e8 ; padding: 5px; width: 100%; -webkit-appearance:none; appearance:none; -moz-appearance: none; text-indent: 0.01px; text-overflow: "";  width: 100%; background: #fff url("../images/selectbox-arrow.png") no-repeat scroll 98% 50%;}
+.select-option option {border: none;}
+
+.login-popup {float: left; width: 100%;}
+.login-popup .tab {float: left; width: 100%;}
+.login-popup .tabs {display: block; width: 60%; float: none; margin: 0 auto;}
+.login-popup .tabs .list {display: inline-block; padding:  10px; text-align: center; color: #333; font-size: 13px; float: left; width: 20%;}
+.login-popup .tabs .active {background: #ff470b; color: #fff;}
+
+.login-popup .pop-up-details {width: 60%; float: none; display: block;}
+.login-popup .pop-up-details > .row {background: #fff;box-shadow: 0 0 9px 0 #d7d7d7;padding: 10px 15px; min-height: 300px;}
+
+.login-popup .label {color: #333333; font-weight: bold; font-size: 14px; margin: 0 0 8px 0; display: block;}
+.login-popup .sub-label {color: #888;  font-size: 12px; margin: 0 0 8px 0; }
+.login-popup .additional-link {font-size: 12px; color: #1586ba;}
+
+.login-popup .main-heading { font-size: 22px; color: #ff470b; padding-bottom: 5px;margin-bottom: 15px; border-bottom: 1px solid #e0e0e0;}
+.login-popup .main-heading .heading-lable {display: block; font-size: 12px; color: #888;}
+
+.login-popup .buttons {width: 100%; float: left; margin: 20px 0px;}
+.login-popup .buttons .back-btn {float: left; padding: 8px 25px; border-radius: 3px; background: #333; color: #fff; font-size: 12px;}
+.login-popup .buttons .back-btn:hover{background: #000;}
+
+.login-popup .buttons .save-next {float: right; padding: 8px 25px; border-radius: 3px; background: #27ae60; color: #fff; font-size: 12px;}
+.login-popup .buttons .save-next:hover {background: #259855;}
+
+.login-popup .step-1, .login-popup .step-2, .login-popup .step-3, .login-popup .step-4, .login-popup .step-5 {margin-top: 0%; transition: all 0.5s ease-in-out 0s;}
+.login-popup .steps-slide {margin-top: -120%; transition: all 0.5s ease-in-out 0s;}
+.login-popup .slide-back {margin-top: 110%; transition: all 0.5s ease-in-out 0s;}
+.login-popup .slide-next {margin-top: 0%; transition: all 0.5s ease-in-out 0s;}
